@@ -1,0 +1,6 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4024
+
+run ruby process using vim-addon-async, but intercept line locations of ruby rdebug debugger and show lines.
+You can talk to the debugger and add breakpoints.
+
+KISS debugging for ruby

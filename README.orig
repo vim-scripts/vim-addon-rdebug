@@ -1,0 +1,20 @@
+minimal rdebug debugging support based on vim-addon-async
+
+usage:
+  add require 'debug' to your ruby project, then run:
+  AsyncRubyRDebug ruby file.rb
+
+  Then you can use F4,F5, ... to step and set breakpoints
+  (see plugin/vim-addon-rdebug.vim)
+
+  You can pass input to debug process, see documentation of vim-addon-async
+
+If something doesn't work contact me
+
+
+BUGS:
+no threading support yet
+no support for debugging vars, but expecting vars by runing rdebug commands
+works
+
+support for multiple processes is started but not complete
